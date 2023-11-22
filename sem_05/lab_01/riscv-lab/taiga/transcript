@@ -1,0 +1,815 @@
+# ERROR: No extended dataflow license exists
+# do scripts/run.do ../src/individual.hex
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# set HEX_FILE $1
+# ../src/individual.hex
+# 
+# vlog -sv -svinputport=net -work work +incdir+lib {lib/taiga_config.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:08 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+lib" lib/taiga_config.sv 
+# -- Compiling package taiga_config
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:08 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+local_memory {local_memory/local_memory_interface.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:08 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+local_memory" local_memory/local_memory_interface.sv 
+# -- Compiling interface local_memory_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:10 on Oct 18,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+l2_arbiter {l2_arbiter/l2_config_and_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:10 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+l2_arbiter" l2_arbiter/l2_config_and_types.sv 
+# -- Compiling package l2_config_and_types
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:10 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/one_hot_to_integer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:11 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/one_hot_to_integer.sv 
+# -- Compiling module one_hot_to_integer
+# ** Warning: core/one_hot_to_integer.sv(45): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/one_hot_to_integer.sv(46): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/one_hot_to_integer.sv(48): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/one_hot_to_integer.sv(48): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/one_hot_to_integer.sv(50): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/one_hot_to_integer.sv(54): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/one_hot_to_integer.sv(54): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/one_hot_to_integer.sv(55): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# 
+# Top level modules:
+# 	one_hot_to_integer
+# End time: 12:08:11 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# vlog -sv -svinputport=net -work work +incdir+core {core/cycler.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:11 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/cycler.sv 
+# -- Compiling module cycler
+# 
+# Top level modules:
+# 	cycler
+# End time: 12:08:11 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+lib {lib/riscv_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:11 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+lib" lib/riscv_types.sv 
+# -- Compiling package riscv_types
+# -- Importing package taiga_config
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:11 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+l2_arbiter {l2_arbiter/l2_interfaces.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:11 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+l2_arbiter" l2_arbiter/l2_interfaces.sv 
+# -- Compiling package l2_interfaces_sv_unit
+# -- Importing package l2_config_and_types
+# -- Compiling interface l2_arbitration_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:12 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+l2_arbiter {l2_arbiter/l2_external_interfaces.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:12 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+l2_arbiter" l2_arbiter/l2_external_interfaces.sv 
+# -- Compiling package l2_external_interfaces_sv_unit
+# -- Importing package l2_config_and_types
+# -- Compiling interface l2_requester_interface
+# -- Compiling interface l2_memory_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:12 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/illegal_instruction_checker.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:12 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/illegal_instruction_checker.sv 
+# -- Compiling module illegal_instruction_checker
+# -- Importing package taiga_config
+# 
+# Top level modules:
+# 	illegal_instruction_checker
+# End time: 12:08:12 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+lib {lib/taiga_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:12 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+lib" lib/taiga_types.sv 
+# -- Compiling package taiga_types
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:13 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core/intel {core/intel/intel_byte_enable_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:13 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core/intel" core/intel/intel_byte_enable_ram.sv 
+# -- Compiling module intel_byte_enable_ram
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	intel_byte_enable_ram
+# End time: 12:08:13 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/toggle_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:13 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/toggle_memory.sv 
+# -- Compiling module toggle_memory
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	toggle_memory
+# End time: 12:08:13 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/shift_counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:13 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/shift_counter.sv 
+# -- Compiling module shift_counter
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	shift_counter
+# End time: 12:08:13 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/set_clr_reg_with_rst.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:13 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/set_clr_reg_with_rst.sv 
+# -- Compiling module set_clr_reg_with_rst
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	set_clr_reg_with_rst
+# End time: 12:08:14 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/register_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:14 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/register_file.sv 
+# -- Compiling module register_file
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# 
+# Top level modules:
+# 	register_file
+# End time: 12:08:14 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/regfile_bank_sel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:14 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/regfile_bank_sel.sv 
+# -- Compiling module regfile_bank_sel
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# 
+# Top level modules:
+# 	regfile_bank_sel
+# End time: 12:08:14 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/interfaces.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:14 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/interfaces.sv 
+# -- Compiling interface branch_predictor_interface
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# -- Importing package l2_config_and_types
+# -- Compiling interface unit_issue_interface
+# -- Compiling interface unit_writeback_interface
+# -- Compiling interface ras_interface
+# -- Compiling interface csr_exception_interface
+# -- Compiling interface exception_interface
+# -- Compiling interface fifo_interface
+# -- Compiling interface mmu_interface
+# -- Compiling interface tlb_interface
+# -- Compiling interface load_store_queue_interface
+# -- Compiling interface writeback_store_interface
+# -- Compiling interface ls_sub_unit_interface
+# -- Compiling interface fetch_sub_unit_interface
+# -- Compiling interface unsigned_division_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:15 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/external_interfaces.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:15 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/external_interfaces.sv 
+# -- Compiling interface axi_interface
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# -- Importing package l2_config_and_types
+# -- Compiling interface avalon_interface
+# -- Compiling interface wishbone_interface
+# -- Compiling interface l1_arbiter_request_interface
+# -- Compiling interface l1_arbiter_return_interface
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:15 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/csr_types.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:15 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/csr_types.sv 
+# -- Compiling package csr_types
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:08:15 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/byte_en_BRAM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:15 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/byte_en_BRAM.sv 
+# -- Compiling module byte_en_BRAM
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	byte_en_BRAM
+# End time: 12:08:15 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/branch_predictor_ram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:16 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/branch_predictor_ram.sv 
+# -- Compiling module branch_predictor_ram
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	branch_predictor_ram
+# End time: 12:08:16 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/branch_comparator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:16 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/branch_comparator.sv 
+# -- Compiling module branch_comparator
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	branch_comparator
+# End time: 12:08:16 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/barrel_shifter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:16 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/barrel_shifter.sv 
+# -- Compiling module barrel_shifter
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	barrel_shifter
+# End time: 12:08:16 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/taiga_fifo.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:16 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/taiga_fifo.sv 
+# -- Compiling module taiga_fifo
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# ** Warning: core/taiga_fifo.sv(127): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/taiga_fifo.sv(129): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/taiga_fifo.sv(29): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	taiga_fifo
+# End time: 12:08:17 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 3
+# vlog -sv -svinputport=net -work work +incdir+core {core/register_file_and_writeback.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:17 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/register_file_and_writeback.sv 
+# -- Compiling module register_file_and_writeback
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# 
+# Top level modules:
+# 	register_file_and_writeback
+# End time: 12:08:17 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/load_store_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:17 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/load_store_unit.sv 
+# -- Compiling module load_store_unit
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# ** Warning: core/load_store_unit.sv(392): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/load_store_unit.sv(396): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/load_store_unit.sv(134): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/load_store_unit.sv(135): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/load_store_unit.sv(136): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/load_store_unit.sv(137): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/load_store_unit.sv(23): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	load_store_unit
+# End time: 12:08:17 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# vlog -sv -svinputport=net -work work +incdir+core {core/instruction_metadata_and_id_management.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:17 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/instruction_metadata_and_id_management.sv 
+# -- Compiling module instruction_metadata_and_id_management
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# ** Warning: core/instruction_metadata_and_id_management.sv(385): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/instruction_metadata_and_id_management.sv(389): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/instruction_metadata_and_id_management.sv(23): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	instruction_metadata_and_id_management
+# End time: 12:08:17 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vlog -sv -svinputport=net -work work +incdir+core {core/ibram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:18 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/ibram.sv 
+# -- Compiling module ibram
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	ibram
+# End time: 12:08:18 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/gc_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:18 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/gc_unit.sv 
+# -- Compiling module gc_unit
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# -- Importing package csr_types
+# 
+# Top level modules:
+# 	gc_unit
+# End time: 12:08:18 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/fetch.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:18 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/fetch.sv 
+# -- Compiling module fetch
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# ** Warning: core/fetch.sv(224): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/fetch.sv(23): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	fetch
+# End time: 12:08:18 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -svinputport=net -work work +incdir+core {core/decode_and_issue.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:18 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/decode_and_issue.sv 
+# -- Compiling module decode_and_issue
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# ** Warning: core/decode_and_issue.sv(543): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: core/decode_and_issue.sv(23): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	decode_and_issue
+# End time: 12:08:19 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vlog -sv -svinputport=net -work work +incdir+core {core/dbram.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:19 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/dbram.sv 
+# -- Compiling module dbram
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	dbram
+# End time: 12:08:19 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/csr_regs.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:19 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/csr_regs.sv 
+# -- Compiling module csr_regs
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# -- Importing package csr_types
+# ** Warning: core/csr_regs.sv(188): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(189): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(192): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(194): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(203): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(205): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(207): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(209): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(222): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(225): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(226): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(227): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(230): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(231): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(232): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(244): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(245): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(246): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(247): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(253): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(255): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(256): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(257): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(258): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(260): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(261): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(262): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(264): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(273): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(275): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(277): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(279): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(303): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(305): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(306): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(307): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(308): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(309): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(310): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(311): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(312): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(313): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(314): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(315): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(316): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(331): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(333): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(334): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: core/csr_regs.sv(335): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# 
+# Top level modules:
+# 	csr_regs
+# End time: 12:08:19 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 49
+# vlog -sv -svinputport=net -work work +incdir+core {core/branch_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:19 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/branch_unit.sv 
+# -- Compiling module branch_unit
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	branch_unit
+# End time: 12:08:20 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/branch_predictor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:20 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/branch_predictor.sv 
+# -- Compiling module branch_predictor
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# 
+# Top level modules:
+# 	branch_predictor
+# End time: 12:08:20 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/alu_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:20 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/alu_unit.sv 
+# -- Compiling package alu_unit_sv_unit
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# -- Compiling module alu_unit
+# 
+# Top level modules:
+# 	alu_unit
+# End time: 12:08:20 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/taiga.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:20 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/taiga.sv 
+# -- Compiling module taiga
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# 
+# Top level modules:
+# 	taiga
+# End time: 12:08:21 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/ras.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:21 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/ras.sv 
+# -- Compiling module ras
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# 
+# Top level modules:
+# 	ras
+# End time: 12:08:21 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+core {core/load_store_queue.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:21 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+core" core/load_store_queue.sv 
+# -- Compiling module load_store_queue
+# -- Importing package taiga_config
+# -- Importing package riscv_types
+# -- Importing package taiga_types
+# 
+# Top level modules:
+# 	load_store_queue
+# End time: 12:08:21 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -svinputport=net -work work +incdir+examples/zedboard {examples/zedboard/taiga_wrapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:21 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+examples/zedboard" examples/zedboard/taiga_wrapper.sv 
+# -- Compiling module taiga_wrapper
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# -- Importing package l2_config_and_types
+# 
+# Top level modules:
+# 	taiga_wrapper
+# End time: 12:08:21 on Oct 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -svinputport=net -work work +incdir+my_tb {my_tb/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:08:21 on Oct 18,2023
+# vlog -reportprogress 300 -sv -svinputport=net -work work "+incdir+my_tb" my_tb/tb.sv 
+# -- Compiling package tb_sv_unit
+# -- Importing package taiga_config
+# -- Importing package taiga_types
+# -- Importing package riscv_types
+# -- Importing package l2_config_and_types
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:08:22 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb -G HEX_FILE=$HEX_FILE
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb -GHEX_FILE=../src/individual.hex 
+# Start time: 12:08:22 on Oct 18,2023
+# Loading sv_std.std
+# Loading work.l2_config_and_types
+# Loading work.taiga_config
+# Loading work.riscv_types
+# Loading work.taiga_types
+# Loading work.tb_sv_unit
+# Loading work.tb
+# Loading work.taiga_wrapper
+# Loading work.axi_interface
+# Loading work.avalon_interface
+# Loading work.wishbone_interface
+# Loading work.l2_external_interfaces_sv_unit
+# Loading work.l2_memory_interface
+# Loading work.local_memory_interface
+# Loading work.taiga
+# Loading work.branch_predictor_interface
+# Loading work.ras_interface
+# Loading work.mmu_interface
+# Loading work.tlb_interface
+# Loading work.writeback_store_interface
+# Loading work.instruction_metadata_and_id_management
+# Loading work.toggle_memory
+# Loading work.fetch
+# Loading work.fifo_interface
+# Loading work.one_hot_to_integer
+# Loading work.taiga_fifo
+# Loading work.branch_predictor
+# Loading work.cycler
+# Loading work.ras
+# Loading work.decode_and_issue
+# Loading work.register_file_and_writeback
+# Loading work.regfile_bank_sel
+# Loading work.branch_unit
+# Loading work.set_clr_reg_with_rst
+# Loading work.branch_comparator
+# Loading work.alu_unit_sv_unit
+# Loading work.alu_unit
+# Loading work.barrel_shifter
+# Loading work.load_store_unit
+# Loading work.ls_sub_unit_interface
+# Loading work.load_store_queue_interface
+# Loading work.load_store_queue
+# Loading work.csr_types
+# Loading work.gc_unit
+# Loading work.shift_counter
+# Loading work.csr_regs
+# Loading work.byte_en_BRAM
+# Loading work.intel_byte_enable_ram
+# Loading work.l2_requester_interface
+# Loading work.l1_arbiter_request_interface
+# Loading work.l1_arbiter_return_interface
+# Loading work.unit_issue_interface
+# Loading work.unit_writeback_interface
+# Loading work.dbram
+# Loading work.register_file
+# Loading work.illegal_instruction_checker
+# Loading work.branch_predictor_ram
+# Loading work.fetch_sub_unit_interface
+# Loading work.ibram
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# 
+# do scripts/wave1.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb/ext_reset
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ratwe  Hostname: LAPTOP-E2OGAIT1  ProcessID: 19404
+#           Attempting to use alternate WLF file "./wlftfcec27".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfcec27
+# add wave -noupdate /tb/sys_clk
+# add wave -noupdate -radix decimal /tb/cyc_cnt
+# add wave -noupdate -divider {Branch Prediction}
+# add wave -noupdate -radix hexadecimal /tb/uut/cpu/bp/predicted_pc
+# add wave -noupdate /tb/uut/cpu/bp/use_prediction
+# add wave -noupdate -divider {Global control}
+# add wave -noupdate /tb/uut/cpu/gc_unit_block/gc_fetch_flush
+# add wave -noupdate /tb/uut/cpu/gc_unit_block/gc_fetch_hold
+# add wave -noupdate -divider Fetch
+# add wave -noupdate -radix hexadecimal /tb/uut/cpu/fetch_block/next_pc
+# add wave -noupdate -radix hexadecimal /tb/uut/cpu/fetch_block/pc
+# add wave -noupdate -radix hexadecimal /tb/uut/cpu/instruction_bram/addr
+# add wave -noupdate /tb/uut/cpu/instruction_bram/en
+# add wave -noupdate -radix hexadecimal /tb/uut/cpu/instruction_bram/data_out
+# add wave -noupdate /tb/uut/cpu/fetch_block/fetch_complete
+# add wave -noupdate -radix hexadecimal -childformat {{{/tb/uut/cpu/fetch_block/fetch_instruction[31]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[30]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[29]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[28]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[27]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[26]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[25]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[24]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[23]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[22]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[21]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[20]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[19]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[18]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[17]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[16]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[15]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[14]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[13]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[12]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[11]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[10]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[9]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[8]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[7]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[6]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[5]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[4]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[3]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[2]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[1]} -radix hexadecimal} {{/tb/uut/cpu/fetch_block/fetch_instruction[0]} -radix hexadecimal}} -subitemconfig {{/tb/uut/cpu/fetch_block/fetch_instruction[31]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[30]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[29]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[28]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[27]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[26]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[25]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[24]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[23]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[22]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[21]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[20]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[19]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[18]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[17]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[16]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[15]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[14]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[13]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[12]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[11]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[10]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[9]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[8]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[7]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[6]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[5]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[4]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[3]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[2]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[1]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/fetch_block/fetch_instruction[0]} {-height 30 -radix hexadecimal}} /tb/uut/cpu/fetch_block/fetch_instruction
+# add wave -noupdate /tb/uut/cpu/fetch_block/pc_id_assigned
+# add wave -noupdate -divider Dispatch
+# add wave -noupdate -radix hexadecimal /tb/uut/cpu/id_block/pc_id
+# add wave -noupdate -radix unsigned /tb/uut/cpu/id_block/pc_id_next
+# add wave -noupdate /tb/uut/cpu/id_block/pc_id_available
+# add wave -noupdate -radix hexadecimal -childformat {{{/tb/uut/cpu/id_block/pc_table[0]} -radix hexadecimal} {{/tb/uut/cpu/id_block/pc_table[1]} -radix hexadecimal} {{/tb/uut/cpu/id_block/pc_table[2]} -radix hexadecimal} {{/tb/uut/cpu/id_block/pc_table[3]} -radix hexadecimal} {{/tb/uut/cpu/id_block/pc_table[4]} -radix hexadecimal} {{/tb/uut/cpu/id_block/pc_table[5]} -radix hexadecimal} {{/tb/uut/cpu/id_block/pc_table[6]} -radix hexadecimal} {{/tb/uut/cpu/id_block/pc_table[7]} -radix hexadecimal}} -subitemconfig {{/tb/uut/cpu/id_block/pc_table[0]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/pc_table[1]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/pc_table[2]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/pc_table[3]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/pc_table[4]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/pc_table[5]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/pc_table[6]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/pc_table[7]} {-height 30 -radix hexadecimal}} /tb/uut/cpu/id_block/pc_table
+# add wave -noupdate -radix hexadecimal -childformat {{{/tb/uut/cpu/id_block/instruction_table[0]} -radix hexadecimal} {{/tb/uut/cpu/id_block/instruction_table[1]} -radix hexadecimal} {{/tb/uut/cpu/id_block/instruction_table[2]} -radix hexadecimal} {{/tb/uut/cpu/id_block/instruction_table[3]} -radix hexadecimal} {{/tb/uut/cpu/id_block/instruction_table[4]} -radix hexadecimal} {{/tb/uut/cpu/id_block/instruction_table[5]} -radix hexadecimal} {{/tb/uut/cpu/id_block/instruction_table[6]} -radix hexadecimal} {{/tb/uut/cpu/id_block/instruction_table[7]} -radix hexadecimal}} -subitemconfig {{/tb/uut/cpu/id_block/instruction_table[0]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/instruction_table[1]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/instruction_table[2]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/instruction_table[3]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/instruction_table[4]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/instruction_table[5]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/instruction_table[6]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/id_block/instruction_table[7]} {-height 30 -radix hexadecimal}} /tb/uut/cpu/id_block/instruction_table
+# add wave -noupdate -divider {Decode & Issue}
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/id_block/decode.id -radix unsigned} {/tb/uut/cpu/id_block/decode.pc -radix hexadecimal} {/tb/uut/cpu/id_block/decode.instruction -radix hexadecimal} {/tb/uut/cpu/id_block/decode.valid -radix hexadecimal} {/tb/uut/cpu/id_block/decode.addr_valid -radix hexadecimal}} -subitemconfig {/tb/uut/cpu/id_block/decode.id {-height 30 -radix unsigned} /tb/uut/cpu/id_block/decode.pc {-height 30 -radix hexadecimal} /tb/uut/cpu/id_block/decode.instruction {-height 30 -radix hexadecimal} /tb/uut/cpu/id_block/decode.valid {-height 30 -radix hexadecimal} /tb/uut/cpu/id_block/decode.addr_valid {-height 30 -radix hexadecimal}} /tb/uut/cpu/id_block/decode
+# add wave -noupdate /tb/uut/cpu/id_block/decode_advance
+# add wave -noupdate /tb/uut/cpu/decode_and_issue_block/issue_stage_ready
+# add wave -noupdate /tb/uut/cpu/decode_and_issue_block/issue_ready
+# add wave -noupdate /tb/uut/cpu/decode_and_issue_block/unit_operands_ready
+# add wave -noupdate /tb/uut/cpu/decode_and_issue_block/rs1_conflict
+# add wave -noupdate /tb/uut/cpu/decode_and_issue_block/rs2_conflict
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/decode_and_issue_block/issue.pc -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.instruction -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.fn3 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.opcode -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.rs_addr -radix hexadecimal -childformat {{{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/decode_and_issue_block/issue.rd_addr -radix hexadecimal -childformat {{{[4]} -radix hexadecimal} {{[3]} -radix hexadecimal} {{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/decode_and_issue_block/issue.uses_rs1 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.uses_rs2 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.uses_rd -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.id -radix hexadecimal -childformat {{{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/decode_and_issue_block/issue.stage_valid -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.addr_valid -radix hexadecimal}} -expand -subitemconfig {/tb/uut/cpu/decode_and_issue_block/issue.pc {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.instruction {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.fn3 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.opcode {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.rs_addr {-height 30 -radix hexadecimal -childformat {{{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}} -expand} {/tb/uut/cpu/decode_and_issue_block/issue.rs_addr[1]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.rs_addr[0]} {-radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.rd_addr {-height 30 -radix hexadecimal -childformat {{{[4]} -radix hexadecimal} {{[3]} -radix hexadecimal} {{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/decode_and_issue_block/issue.rd_addr[4]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.rd_addr[3]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.rd_addr[2]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.rd_addr[1]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.rd_addr[0]} {-radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.uses_rs1 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.uses_rs2 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.uses_rd {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.id {-height 30 -radix hexadecimal -childformat {{{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/decode_and_issue_block/issue.id[2]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.id[1]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/issue.id[0]} {-radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.stage_valid {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/issue.addr_valid {-height 30 -radix hexadecimal}} /tb/uut/cpu/decode_and_issue_block/issue
+# add wave -noupdate -divider ALU
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1 -radix hexadecimal -childformat {{{[32]} -radix hexadecimal} {{[31]} -radix hexadecimal} {{[30]} -radix hexadecimal} {{[29]} -radix hexadecimal} {{[28]} -radix hexadecimal} {{[27]} -radix hexadecimal} {{[26]} -radix hexadecimal} {{[25]} -radix hexadecimal} {{[24]} -radix hexadecimal} {{[23]} -radix hexadecimal} {{[22]} -radix hexadecimal} {{[21]} -radix hexadecimal} {{[20]} -radix hexadecimal} {{[19]} -radix hexadecimal} {{[18]} -radix hexadecimal} {{[17]} -radix hexadecimal} {{[16]} -radix hexadecimal} {{[15]} -radix hexadecimal} {{[14]} -radix hexadecimal} {{[13]} -radix hexadecimal} {{[12]} -radix hexadecimal} {{[11]} -radix hexadecimal} {{[10]} -radix hexadecimal} {{[9]} -radix hexadecimal} {{[8]} -radix hexadecimal} {{[7]} -radix hexadecimal} {{[6]} -radix hexadecimal} {{[5]} -radix hexadecimal} {{[4]} -radix hexadecimal} {{[3]} -radix hexadecimal} {{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in2 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.shifter_in -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.shift_amount -radix decimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.subtract -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.arith -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.lshift -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.logic_op -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.shifter_path -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.slt_path -radix hexadecimal}} -subitemconfig {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1 {-height 30 -radix hexadecimal -childformat {{{[32]} -radix hexadecimal} {{[31]} -radix hexadecimal} {{[30]} -radix hexadecimal} {{[29]} -radix hexadecimal} {{[28]} -radix hexadecimal} {{[27]} -radix hexadecimal} {{[26]} -radix hexadecimal} {{[25]} -radix hexadecimal} {{[24]} -radix hexadecimal} {{[23]} -radix hexadecimal} {{[22]} -radix hexadecimal} {{[21]} -radix hexadecimal} {{[20]} -radix hexadecimal} {{[19]} -radix hexadecimal} {{[18]} -radix hexadecimal} {{[17]} -radix hexadecimal} {{[16]} -radix hexadecimal} {{[15]} -radix hexadecimal} {{[14]} -radix hexadecimal} {{[13]} -radix hexadecimal} {{[12]} -radix hexadecimal} {{[11]} -radix hexadecimal} {{[10]} -radix hexadecimal} {{[9]} -radix hexadecimal} {{[8]} -radix hexadecimal} {{[7]} -radix hexadecimal} {{[6]} -radix hexadecimal} {{[5]} -radix hexadecimal} {{[4]} -radix hexadecimal} {{[3]} -radix hexadecimal} {{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[32]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[31]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[30]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[29]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[28]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[27]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[26]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[25]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[24]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[23]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[22]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[21]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[20]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[19]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[18]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[17]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[16]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[15]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[14]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[13]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[12]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[11]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[10]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[9]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[8]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[7]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[6]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[5]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[4]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[3]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[2]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[1]} {-radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/alu_inputs.in1[0]} {-radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.in2 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.shifter_in {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.shift_amount {-height 30 -radix decimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.subtract {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.arith {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.lshift {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.logic_op {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.shifter_path {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/alu_inputs.slt_path {-height 30 -radix hexadecimal}} /tb/uut/cpu/decode_and_issue_block/alu_inputs
+# add wave -noupdate {/tb/uut/cpu/decode_and_issue_block/unit_issue[0]/new_request}
+# add wave -noupdate -radix unsigned {/tb/uut/cpu/decode_and_issue_block/unit_issue[0]/id}
+# add wave -noupdate -radix unsigned {/tb/uut/cpu/register_file_and_writeback_block/unit_wb[0]/id}
+# add wave -noupdate {/tb/uut/cpu/register_file_and_writeback_block/unit_wb[0]/done}
+# add wave -noupdate -radix hexadecimal {/tb/uut/cpu/register_file_and_writeback_block/unit_wb[0]/rd}
+# add wave -noupdate -divider LSU
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/decode_and_issue_block/ls_inputs.rs1 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.rs2 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.offset -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.fn3 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.load -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.store -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.forwarded_store -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.store_forward_id -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/ls_inputs.amo -radix hexadecimal}} -subitemconfig {/tb/uut/cpu/decode_and_issue_block/ls_inputs.rs1 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.rs2 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.offset {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.fn3 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.load {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.store {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.forwarded_store {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.store_forward_id {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/ls_inputs.amo {-height 30 -radix hexadecimal}} /tb/uut/cpu/decode_and_issue_block/ls_inputs
+# add wave -noupdate {/tb/uut/cpu/decode_and_issue_block/unit_issue[1]/new_request}
+# add wave -noupdate {/tb/uut/cpu/decode_and_issue_block/unit_issue[1]/id}
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/load_store_unit_block/stage2_attr.fn3 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/stage2_attr.byte_addr -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/stage2_attr.id -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/stage2_attr.subunit_id -radix hexadecimal}} -subitemconfig {/tb/uut/cpu/load_store_unit_block/stage2_attr.fn3 {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/stage2_attr.byte_addr {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/stage2_attr.id {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/stage2_attr.subunit_id {-height 30 -radix hexadecimal}} /tb/uut/cpu/load_store_unit_block/stage2_attr
+# add wave -noupdate /tb/uut/cpu/load_store_unit_block/lsq/transaction_ready
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr -radix hexadecimal -childformat {{{[31]} -radix hexadecimal} {{[30]} -radix hexadecimal} {{[29]} -radix hexadecimal} {{[28]} -radix hexadecimal} {{[27]} -radix hexadecimal} {{[26]} -radix hexadecimal} {{[25]} -radix hexadecimal} {{[24]} -radix hexadecimal} {{[23]} -radix hexadecimal} {{[22]} -radix hexadecimal} {{[21]} -radix hexadecimal} {{[20]} -radix hexadecimal} {{[19]} -radix hexadecimal} {{[18]} -radix hexadecimal} {{[17]} -radix hexadecimal} {{[16]} -radix hexadecimal} {{[15]} -radix hexadecimal} {{[14]} -radix hexadecimal} {{[13]} -radix hexadecimal} {{[12]} -radix hexadecimal} {{[11]} -radix hexadecimal} {{[10]} -radix hexadecimal} {{[9]} -radix hexadecimal} {{[8]} -radix hexadecimal} {{[7]} -radix hexadecimal} {{[6]} -radix hexadecimal} {{[5]} -radix hexadecimal} {{[4]} -radix hexadecimal} {{[3]} -radix hexadecimal} {{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.load -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.store -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.be -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.fn3 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.data_in -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.id -radix hexadecimal}} -subitemconfig {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr {-height 30 -radix hexadecimal -childformat {{{[31]} -radix hexadecimal} {{[30]} -radix hexadecimal} {{[29]} -radix hexadecimal} {{[28]} -radix hexadecimal} {{[27]} -radix hexadecimal} {{[26]} -radix hexadecimal} {{[25]} -radix hexadecimal} {{[24]} -radix hexadecimal} {{[23]} -radix hexadecimal} {{[22]} -radix hexadecimal} {{[21]} -radix hexadecimal} {{[20]} -radix hexadecimal} {{[19]} -radix hexadecimal} {{[18]} -radix hexadecimal} {{[17]} -radix hexadecimal} {{[16]} -radix hexadecimal} {{[15]} -radix hexadecimal} {{[14]} -radix hexadecimal} {{[13]} -radix hexadecimal} {{[12]} -radix hexadecimal} {{[11]} -radix hexadecimal} {{[10]} -radix hexadecimal} {{[9]} -radix hexadecimal} {{[8]} -radix hexadecimal} {{[7]} -radix hexadecimal} {{[6]} -radix hexadecimal} {{[5]} -radix hexadecimal} {{[4]} -radix hexadecimal} {{[3]} -radix hexadecimal} {{[2]} -radix hexadecimal} {{[1]} -radix hexadecimal} {{[0]} -radix hexadecimal}}} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[31]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[30]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[29]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[28]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[27]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[26]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[25]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[24]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[23]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[22]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[21]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[20]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[19]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[18]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[17]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[16]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[15]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[14]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[13]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[12]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[11]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[10]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[9]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[8]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[7]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[6]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[5]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[4]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[3]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[2]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[1]} {-radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/lsq/transaction_out.addr[0]} {-radix hexadecimal} /tb/uut/cpu/load_store_unit_block/lsq/transaction_out.load {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/lsq/transaction_out.store {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/lsq/transaction_out.be {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/lsq/transaction_out.fn3 {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/lsq/transaction_out.data_in {-height 30 -radix hexadecimal} /tb/uut/cpu/load_store_unit_block/lsq/transaction_out.id {-height 30 -radix hexadecimal}} /tb/uut/cpu/load_store_unit_block/lsq/transaction_out
+# add wave -noupdate -radix hexadecimal -childformat {{{/tb/uut/cpu/load_store_unit_block/data_bram/addr[29]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[28]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[27]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[26]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[25]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[24]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[23]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[22]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[21]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[20]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[19]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[18]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[17]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[16]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[15]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[14]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[13]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[12]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[11]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[10]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[9]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[8]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[7]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[6]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[5]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[4]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[3]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[2]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[1]} -radix hexadecimal} {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[0]} -radix hexadecimal}} -subitemconfig {{/tb/uut/cpu/load_store_unit_block/data_bram/addr[29]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[28]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[27]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[26]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[25]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[24]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[23]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[22]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[21]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[20]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[19]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[18]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[17]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[16]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[15]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[14]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[13]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[12]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[11]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[10]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[9]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[8]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[7]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[6]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[5]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[4]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[3]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[2]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[1]} {-height 30 -radix hexadecimal} {/tb/uut/cpu/load_store_unit_block/data_bram/addr[0]} {-height 30 -radix hexadecimal}} /tb/uut/cpu/load_store_unit_block/data_bram/addr
+# add wave -noupdate /tb/uut/cpu/load_store_unit_block/data_bram/en
+# add wave -noupdate -radix hexadecimal /tb/uut/cpu/load_store_unit_block/data_bram/data_out
+# add wave -noupdate /tb/uut/cpu/load_store_unit_block/bram/data_valid
+# add wave -noupdate -radix unsigned {/tb/uut/cpu/register_file_and_writeback_block/unit_wb[1]/id}
+# add wave -noupdate {/tb/uut/cpu/register_file_and_writeback_block/unit_wb[1]/done}
+# add wave -noupdate -radix hexadecimal {/tb/uut/cpu/register_file_and_writeback_block/unit_wb[1]/rd}
+# add wave -noupdate -divider {Branch Unit}
+# add wave -noupdate {/tb/uut/cpu/decode_and_issue_block/unit_issue[2]/new_request}
+# add wave -noupdate {/tb/uut/cpu/decode_and_issue_block/unit_issue[2]/id}
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/decode_and_issue_block/branch_inputs.rs1 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.rs2 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.fn3 -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.issue_pc -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.issue_pc_valid -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.use_signed -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.jal -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.jalr -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.is_call -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.is_return -radix hexadecimal} {/tb/uut/cpu/decode_and_issue_block/branch_inputs.pc_offset -radix hexadecimal}} -subitemconfig {/tb/uut/cpu/decode_and_issue_block/branch_inputs.rs1 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.rs2 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.fn3 {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.issue_pc {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.issue_pc_valid {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.use_signed {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.jal {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.jalr {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.is_call {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.is_return {-height 30 -radix hexadecimal} /tb/uut/cpu/decode_and_issue_block/branch_inputs.pc_offset {-height 30 -radix hexadecimal}} /tb/uut/cpu/decode_and_issue_block/branch_inputs
+# add wave -noupdate /tb/uut/cpu/branch_unit_block/branch_complete
+# add wave -noupdate -radix unsigned /tb/uut/cpu/branch_unit_block/branch_id
+# add wave -noupdate /tb/uut/cpu/branch_unit_block/branch_flush
+# add wave -noupdate -radix hexadecimal -childformat {{/tb/uut/cpu/branch_unit_block/br_results.pc_ex -radix hexadecimal} {/tb/uut/cpu/branch_unit_block/br_results.new_pc -radix hexadecimal} {/tb/uut/cpu/branch_unit_block/br_results.branch_taken -radix hexadecimal} {/tb/uut/cpu/branch_unit_block/br_results.branch_ex -radix hexadecimal} {/tb/uut/cpu/branch_unit_block/br_results.is_branch_ex -radix hexadecimal} {/tb/uut/cpu/branch_unit_block/br_results.is_return_ex -radix hexadecimal} {/tb/uut/cpu/branch_unit_block/br_results.is_call_ex -radix hexadecimal}} -subitemconfig {/tb/uut/cpu/branch_unit_block/br_results.pc_ex {-height 30 -radix hexadecimal} /tb/uut/cpu/branch_unit_block/br_results.new_pc {-height 30 -radix hexadecimal} /tb/uut/cpu/branch_unit_block/br_results.branch_taken {-height 30 -radix hexadecimal} /tb/uut/cpu/branch_unit_block/br_results.branch_ex {-height 30 -radix hexadecimal} /tb/uut/cpu/branch_unit_block/br_results.is_branch_ex {-height 30 -radix hexadecimal} /tb/uut/cpu/branch_unit_block/br_results.is_return_ex {-height 30 -radix hexadecimal} /tb/uut/cpu/branch_unit_block/br_results.is_call_ex {-height 30 -radix hexadecimal}} /tb/uut/cpu/branch_unit_block/br_results
+# add wave -noupdate -divider {Register file}
+# add wave -noupdate -radix hexadecimal -childformat {{{/tb/register_file[0]} -radix hexadecimal} {{/tb/register_file[1]} -radix hexadecimal} {{/tb/register_file[2]} -radix hexadecimal} {{/tb/register_file[3]} -radix hexadecimal} {{/tb/register_file[4]} -radix hexadecimal} {{/tb/register_file[5]} -radix hexadecimal} {{/tb/register_file[6]} -radix hexadecimal} {{/tb/register_file[7]} -radix hexadecimal} {{/tb/register_file[8]} -radix hexadecimal} {{/tb/register_file[9]} -radix hexadecimal} {{/tb/register_file[10]} -radix hexadecimal} {{/tb/register_file[11]} -radix hexadecimal} {{/tb/register_file[12]} -radix hexadecimal} {{/tb/register_file[13]} -radix hexadecimal} {{/tb/register_file[14]} -radix hexadecimal} {{/tb/register_file[15]} -radix hexadecimal} {{/tb/register_file[16]} -radix hexadecimal} {{/tb/register_file[17]} -radix hexadecimal} {{/tb/register_file[18]} -radix hexadecimal} {{/tb/register_file[19]} -radix hexadecimal} {{/tb/register_file[20]} -radix hexadecimal} {{/tb/register_file[21]} -radix hexadecimal} {{/tb/register_file[22]} -radix hexadecimal} {{/tb/register_file[23]} -radix hexadecimal} {{/tb/register_file[24]} -radix hexadecimal} {{/tb/register_file[25]} -radix hexadecimal} {{/tb/register_file[26]} -radix hexadecimal} {{/tb/register_file[27]} -radix hexadecimal} {{/tb/register_file[28]} -radix hexadecimal} {{/tb/register_file[29]} -radix hexadecimal} {{/tb/register_file[30]} -radix hexadecimal} {{/tb/register_file[31]} -radix hexadecimal}} -subitemconfig {{/tb/register_file[0]} {-height 30 -radix hexadecimal} {/tb/register_file[1]} {-height 30 -radix hexadecimal} {/tb/register_file[2]} {-height 30 -radix hexadecimal} {/tb/register_file[3]} {-height 30 -radix hexadecimal} {/tb/register_file[4]} {-height 30 -radix hexadecimal} {/tb/register_file[5]} {-height 30 -radix hexadecimal} {/tb/register_file[6]} {-height 30 -radix hexadecimal} {/tb/register_file[7]} {-height 30 -radix hexadecimal} {/tb/register_file[8]} {-height 30 -radix hexadecimal} {/tb/register_file[9]} {-height 30 -radix hexadecimal} {/tb/register_file[10]} {-height 30 -radix hexadecimal} {/tb/register_file[11]} {-height 30 -radix hexadecimal} {/tb/register_file[12]} {-height 30 -radix hexadecimal} {/tb/register_file[13]} {-height 30 -radix hexadecimal} {/tb/register_file[14]} {-height 30 -radix hexadecimal} {/tb/register_file[15]} {-height 30 -radix hexadecimal} {/tb/register_file[16]} {-height 30 -radix hexadecimal} {/tb/register_file[17]} {-height 30 -radix hexadecimal} {/tb/register_file[18]} {-height 30 -radix hexadecimal} {/tb/register_file[19]} {-height 30 -radix hexadecimal} {/tb/register_file[20]} {-height 30 -radix hexadecimal} {/tb/register_file[21]} {-height 30 -radix hexadecimal} {/tb/register_file[22]} {-height 30 -radix hexadecimal} {/tb/register_file[23]} {-height 30 -radix hexadecimal} {/tb/register_file[24]} {-height 30 -radix hexadecimal} {/tb/register_file[25]} {-height 30 -radix hexadecimal} {/tb/register_file[26]} {-height 30 -radix hexadecimal} {/tb/register_file[27]} {-height 30 -radix hexadecimal} {/tb/register_file[28]} {-height 30 -radix hexadecimal} {/tb/register_file[29]} {-height 30 -radix hexadecimal} {/tb/register_file[30]} {-height 30 -radix hexadecimal} {/tb/register_file[31]} {-height 30 -radix hexadecimal}} /tb/register_file
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cycle #1} {29098908 ps} 1 default {Spring Green}} {{Cursor 2} {46744569 ps} 0}
+# quietly wave cursor active 2
+# configure wave -namecolwidth 743
+# configure wave -valuecolwidth 40
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 2000000
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits us
+# update
+# WaveRestoreZoom {35947105 ps} {43665794 ps}
+# bookmark add wave bookmark0 {{27172371 ps} {44805220 ps}} 0
+run 460us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "../src/individual.hex". Expected 4096, found 21.    : core/intel/intel_byte_enable_ram.sv(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/inst_data_ram/ram_block
+# Bookmark saving is disabled.
+# The 1 bookmark in window "Wave" has been discarded
+# End time: 12:27:21 on Oct 18,2023, Elapsed time: 0:18:59
+# Errors: 0, Warnings: 4
