@@ -1,0 +1,3 @@
+0
+select role from users where user=5 and time>7200;
+exit

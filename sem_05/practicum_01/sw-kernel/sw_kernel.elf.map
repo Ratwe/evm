@@ -1,0 +1,639 @@
+Archive member included to satisfy reference by file (symbol)
+
+../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+                              obj/sw_kernel_main.cpp.o (mq_receive())
+../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+                              obj/sw_kernel_main.cpp.o (set_gpc_state(unsigned char))
+../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                              obj/sw_kernel_main.cpp.o (lnh_init())
+/usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+                              /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o (memcpy)
+/usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+                              /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o (memset)
+/usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+                              /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o (__libc_fini_array)
+/usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+                              /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o (__libc_init_array)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .data          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .bss           0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .group         0x0000000000000000        0xc obj/sw_kernel_main.cpp.o
+ .group         0x0000000000000000        0xc obj/sw_kernel_main.cpp.o
+ .text          0x0000000000000000        0x0 obj/sw_kernel_main.cpp.o
+ .data          0x0000000000000000        0x0 obj/sw_kernel_main.cpp.o
+ .bss           0x0000000000000000        0x0 obj/sw_kernel_main.cpp.o
+ .text          0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .data          0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .bss           0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z10mq_receivejPc
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z17mq_send_dma_flushy
+                0x0000000000000000       0x14 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z11mq_send_dmay
+                0x0000000000000000        0xc ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z11mq_send_dmajPc
+                0x0000000000000000       0x38 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z8msg_readjPc
+                0x0000000000000000       0x44 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z9msg_writejPc
+                0x0000000000000000       0x3c ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z8bin_readjPc
+                0x0000000000000000       0x44 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z9bin_writejPc
+                0x0000000000000000       0x3c ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text._Z4syncv
+                0x0000000000000000       0x3c ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .srodata.cst8  0x0000000000000000       0x10 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .eh_frame      0x0000000000000000      0x100 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .text          0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .data          0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .bss           0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z11handler_irqy
+                0x0000000000000000       0x14 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z11axi_wr_int8yh
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z11axi_rd_int8y
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_wr_int16yt
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_rd_int16y
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_wr_int32yj
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_rd_int32y
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_rd_int64y
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_wr_int64yy
+                0x0000000000000000        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_rd_int64yPv
+                0x0000000000000000        0xc ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text._Z12axi_wr_int64yPv
+                0x0000000000000000        0xc ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .eh_frame      0x0000000000000000      0x150 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .text          0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .data          0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .bss           0x0000000000000000        0x0 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_hw_resetv
+                0x0000000000000000       0x18 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z10float2uintf
+                0x0000000000000000        0xc ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z10uint2floatj
+                0x0000000000000000        0xc ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z10double2ulld
+                0x0000000000000000       0x10 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z10ull2doublem
+                0x0000000000000000       0x10 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_syncmi
+                0x0000000000000000       0x40 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_ins_syncqmmm
+                0x0000000000000000       0x58 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_del_syncqmm
+                0x0000000000000000       0x54 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_get_numqm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z17lnh_del_str_syncqm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_sq_syncqm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_or_syncqmmm
+                0x0000000000000000       0x74 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_and_syncqmmm
+                0x0000000000000000       0x7c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_not_syncqmmm
+                0x0000000000000000       0x7c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_lseq_syncqmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_ls_syncqmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_greq_syncqmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_gr_syncqmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_grls_syncqmmmm
+                0x0000000000000000       0x60 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z11lnh_searchqmm
+                0x0000000000000000       0x54 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_nextqmm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_prevqmm
+                0x0000000000000000       0x54 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z8lnh_nsmqmm
+                0x0000000000000000       0x54 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z8lnh_ngrqmm
+                0x0000000000000000       0x54 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_get_firstqm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_get_lastqm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_get_qv
+                0x0000000000000000       0x40 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_ins_syncmimmm
+                0x0000000000000000       0x64 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_del_syncmimm
+                0x0000000000000000       0x60 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z17lnh_del_str_syncmim
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_sq_syncmim
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_or_syncmimmm
+                0x0000000000000000       0x68 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_and_syncmimmm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_not_syncmimmm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_lseq_syncmimmm
+                0x0000000000000000       0x68 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_ls_syncmimmm
+                0x0000000000000000       0x68 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_greq_syncmimmm
+                0x0000000000000000       0x68 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_gr_syncmimmm
+                0x0000000000000000       0x68 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_grls_syncmimmmm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z11lnh_searchmiiimm
+                0x0000000000000000       0x70 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_nextmiiimm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_prevmiiimm
+                0x0000000000000000       0x70 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z8lnh_nsmmiiimm
+                0x0000000000000000       0x70 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z8lnh_ngrmiiimm
+                0x0000000000000000       0x70 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_get_firstmiiim
+                0x0000000000000000       0x64 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_get_lastmiiim
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_get_mi
+                0x0000000000000000       0x44 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_del_asyncmm
+                0x0000000000000000       0x64 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z17lnh_del_str_asyncm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_sq_asyncm
+                0x0000000000000000       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_or_asyncmmm
+                0x0000000000000000       0x74 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_and_asyncmmm
+                0x0000000000000000       0x7c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z13lnh_not_asyncmmm
+                0x0000000000000000       0x7c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_lseq_asyncmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_ls_asyncmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_greq_asyncmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z12lnh_gr_asyncmmm
+                0x0000000000000000       0x5c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z14lnh_grls_asyncmmmm
+                0x0000000000000000       0x60 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .rodata._ZL10MBOX_VFLAG
+                0x0000000000000000       0x20 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .eh_frame      0x0000000000000000      0x9c8 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .data          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .bss           0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .text          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .data          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .bss           0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .text          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .data          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .bss           0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .text          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+ .data          0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+ .bss           0x0000000000000000        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000000100000 0x0000000000010000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000110000                PROVIDE (__stack = (ORIGIN (ram) + LENGTH (ram)))
+
+.init           0x0000000000100000        0xc
+ *(.text.init.enter)
+ .text.init.enter
+                0x0000000000100000        0xc /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+                0x0000000000100000                _start
+ *(SORT_NONE(.init))
+
+.text           0x000000000010000c     0x1648
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
+                0x000000000010000c       0x28 obj/sw_kernel_main.cpp.o
+ .text.startup.main
+                0x0000000000100034       0x8c obj/sw_kernel_main.cpp.o
+                0x0000000000100034                main
+ .text.startup._GLOBAL__sub_I_event_source
+                0x00000000001000c0        0x4 obj/sw_kernel_main.cpp.o
+ .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
+                0x00000000001000c4       0x50 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text.startup._GLOBAL__sub_I_lnh_core
+                0x0000000000100114        0x4 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ *(.text .text.*)
+ .text._cstart  0x0000000000100118       0x80 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .text._Z6updatev
+                0x0000000000100198       0x4c obj/sw_kernel_main.cpp.o
+                0x0000000000100198                update()
+ .text._Z12update_obj_xv
+                0x00000000001001e4       0x4c obj/sw_kernel_main.cpp.o
+                0x00000000001001e4                update_obj_x()
+ .text._Z12update_obj_yv
+                0x0000000000100230       0x4c obj/sw_kernel_main.cpp.o
+                0x0000000000100230                update_obj_y()
+ .text._Z6selectv
+                0x000000000010027c      0x110 obj/sw_kernel_main.cpp.o
+                0x000000000010027c                select()
+ .text._Z12select_obj_xv
+                0x000000000010038c       0x9c obj/sw_kernel_main.cpp.o
+                0x000000000010038c                select_obj_x()
+ .text._ZSt3minImERKT_S2_S2_
+                0x0000000000100428       0x18 obj/sw_kernel_main.cpp.o
+                0x0000000000100428                unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+ .text._ZSt3maxImERKT_S2_S2_
+                0x0000000000100440       0x18 obj/sw_kernel_main.cpp.o
+                0x0000000000100440                unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+ .text._Z13select_obj_xyv
+                0x0000000000100458      0x12c obj/sw_kernel_main.cpp.o
+                0x0000000000100458                select_obj_xy()
+ .text._Z10mq_receivev
+                0x0000000000100584       0x34 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+                0x0000000000100584                mq_receive()
+ .text._Z7mq_sendy
+                0x00000000001005b8       0x38 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+                0x00000000001005b8                mq_send(unsigned long long)
+ .text._Z13set_gpc_stateh
+                0x00000000001005f0        0xc ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+                0x00000000001005f0                set_gpc_state(unsigned char)
+ .text._Z10gpc_configv
+                0x00000000001005fc        0xc ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+                0x00000000001005fc                gpc_config()
+ .text._Z9gpc_startv
+                0x0000000000100608       0x10 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+                0x0000000000100608                gpc_start()
+ .text._Z10wait_eventv
+                0x0000000000100618       0x38 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+                0x0000000000100618                wait_event()
+ .text._Z9lnh_get_mi.constprop.0
+                0x0000000000100650       0x20 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z9lnh_syncmi.constprop.0
+                0x0000000000100670       0x2c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .text._Z8lnh_syncv
+                0x000000000010069c       0x14 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x000000000010069c                lnh_sync()
+ .text._Z12lnh_ins_syncmmm
+                0x00000000001006b0       0x80 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x00000000001006b0                lnh_ins_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z12lnh_del_syncmm
+                0x0000000000100730       0x8c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100730                lnh_del_sync(unsigned long, unsigned long)
+ .text._Z11lnh_get_numm
+                0x00000000001007bc       0x60 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x00000000001007bc                lnh_get_num(unsigned long)
+ .text._Z16lnh_del_str_syncm
+                0x000000000010081c       0x80 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x000000000010081c                lnh_del_str_sync(unsigned long)
+ .text._Z12lnh_sw_resetv
+                0x000000000010089c       0x4c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x000000000010089c                lnh_sw_reset()
+ .text._Z8lnh_initv
+                0x00000000001008e8       0x6c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x00000000001008e8                lnh_init()
+ .text._Z11lnh_sq_syncm
+                0x0000000000100954       0x80 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100954                lnh_sq_sync(unsigned long)
+ .text._Z11lnh_or_syncmmm
+                0x00000000001009d4       0x8c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x00000000001009d4                lnh_or_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z12lnh_and_syncmmm
+                0x0000000000100a60       0x90 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100a60                lnh_and_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z12lnh_not_syncmmm
+                0x0000000000100af0       0x90 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100af0                lnh_not_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z13lnh_lseq_syncmmm
+                0x0000000000100b80       0x8c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100b80                lnh_lseq_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z7ls_syncmmm
+                0x0000000000100c0c       0x8c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100c0c                ls_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z13lnh_greq_syncmmm
+                0x0000000000100c98       0x8c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100c98                lnh_greq_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z11lnh_gr_syncmmm
+                0x0000000000100d24       0x8c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100d24                lnh_gr_sync(unsigned long, unsigned long, unsigned long)
+ .text._Z13lnh_grls_syncmmmm
+                0x0000000000100db0       0x90 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100db0                lnh_grls_sync(unsigned long, unsigned long, unsigned long, unsigned long)
+ .text._Z10lnh_searchmm
+                0x0000000000100e40       0x94 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100e40                lnh_search(unsigned long, unsigned long)
+ .text._Z8lnh_nextmm
+                0x0000000000100ed4       0x90 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100ed4                lnh_next(unsigned long, unsigned long)
+ .text._Z8lnh_prevmm
+                0x0000000000100f64       0x94 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100f64                lnh_prev(unsigned long, unsigned long)
+ .text._Z7lnh_nsmmm
+                0x0000000000100ff8       0x94 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000100ff8                lnh_nsm(unsigned long, unsigned long)
+ .text._Z7lnh_ngrmm
+                0x000000000010108c       0x94 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x000000000010108c                lnh_ngr(unsigned long, unsigned long)
+ .text._Z14lnh_nsm_signedmx
+                0x0000000000101120       0xb0 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000101120                lnh_nsm_signed(unsigned long, long long)
+ .text._Z14lnh_ngr_signedmx
+                0x00000000001011d0       0xb4 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x00000000001011d0                lnh_ngr_signed(unsigned long, long long)
+ .text._Z13lnh_get_firstm
+                0x0000000000101284       0x88 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000101284                lnh_get_first(unsigned long)
+ .text._Z12lnh_get_lastm
+                0x000000000010130c       0x90 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x000000000010130c                lnh_get_last(unsigned long)
+ .text._Z20lnh_get_first_signedm
+                0x000000000010139c       0x44 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x000000000010139c                lnh_get_first_signed(unsigned long)
+ .text._Z19lnh_get_last_signedm
+                0x00000000001013e0       0x44 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x00000000001013e0                lnh_get_last_signed(unsigned long)
+ .text._Z12lnh_get_nummm
+                0x0000000000101424       0x60 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000101424                lnh_get_numm(unsigned long)
+ .text._Z13lnh_ins_asyncmmm
+                0x0000000000101484       0x68 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000101484                lnh_ins_async(unsigned long, unsigned long, unsigned long)
+ .text.memcpy   0x00000000001014ec       0x24 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+                0x00000000001014ec                memcpy
+ .text.memset   0x0000000000101510       0x1c /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+                0x0000000000101510                memset
+ .text.__libc_fini_array
+                0x000000000010152c       0x7c /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+                0x000000000010152c                __libc_fini_array
+ .text.__libc_init_array
+                0x00000000001015a8       0xac /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+                0x00000000001015a8                __libc_init_array
+ *(.gnu.linkonce.t.*)
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000101654                . = ALIGN (0x4)
+
+.preinit_array  0x0000000000101654        0x0
+                0x0000000000101654                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000000101654                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000101658       0x10
+                0x0000000000101658                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000101658        0x8 obj/sw_kernel_main.cpp.o
+ .init_array    0x0000000000101660        0x8 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x0000000000101668                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000101668        0x0
+                0x0000000000101668                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                0x0000000000101668                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.dtors)
+
+.data           0x0000000000101668       0x18
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata.main   0x0000000000101668       0x18 obj/sw_kernel_main.cpp.o
+ *(.gnu.linkonce.r.*)
+                0x0000000000101680                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ *(.data.rel.ro .data.rel.ro.*)
+ *(.got .got.*)
+ *(.data .data.*)
+ *(.gnu.linkonce.d.*)
+                0x0000000000101680                . = ALIGN (0x8)
+                0x0000000000101e80                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.* .sdata2.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000000000000                PROVIDE (__data_source = 0x0)
+                0x0000000000000000                PROVIDE (__data_start = 0x0)
+                [!provide]                        PROVIDE (__data_end = 0x0)
+                0x0000000000000000                PROVIDE (__data_size = 0x0)
+
+.rela.dyn       0x0000000000101680        0x0
+ .rela.text._cstart
+                0x0000000000101680        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .rela.text.init.enter
+                0x0000000000101680        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .rela.text.__libc_fini_array
+                0x0000000000101680        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .rela.text.__libc_init_array
+                0x0000000000101680        0x0 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+
+.tdata          0x0000000000101680        0x0
+                0x0000000000101680                PROVIDE (__tls_base = .)
+                0x0000000000101680                _tls_data = .
+ *(.tdata)
+ *(.tdata.*)
+ *(.gnu.linkonce.td*)
+                0x0000000000101680                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__edata = .)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+
+.tbss           0x0000000000101680        0x0
+                0x0000000000101680                PROVIDE (__bss_start = .)
+ *(.tbss)
+ *(.tbss.*)
+ *(.gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.bss            0x0000000000101680       0xa0
+ *(.sbss*)
+ .sbss.event_source
+                0x0000000000101680        0x4 obj/sw_kernel_main.cpp.o
+                0x0000000000101680                event_source
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ *fill*         0x0000000000101684        0x4 
+ .bss._ZL4MBOX  0x0000000000101688       0x40 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .bss.lnh_core  0x00000000001016c8       0x58 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+                0x00000000001016c8                lnh_core
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x0000000000101720                . = ALIGN (0x8)
+                0x0000000000101720                __bss_end = .
+                0x00000000000000a0                PROVIDE (__bss_size = (__bss_end - __bss_start))
+                [!provide]                        PROVIDE (__end = __bss_end)
+                [!provide]                        PROVIDE (_end = __bss_end)
+                [!provide]                        PROVIDE (end = __bss_end)
+                [!provide]                        PROVIDE (__heap_start = __end)
+                [!provide]                        PROVIDE (__heap_end = (__stack - DEFINED (__stack_size)?__stack_size:0x800))
+                [!provide]                        PROVIDE (__heap_size = (__heap_end - __heap_start))
+
+/DISCARD/
+ *(.eh_frame .eh_frame.*)
+ *(.note .note.*)
+LOAD /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+LOAD obj/sw_kernel_main.cpp.o
+                0x0000000000100000                __executable_start = 0x100000
+                0x0000000000100000                __mem_addr = 0x100000
+                0x0000000000010000                __mem_size = 0x10000
+                0x0000000000001000                __stack_size = 0x1000
+LOAD ../sw-kernel-lib/lib//libsw-kernel.a
+LOAD /data/taiga64-project/tool-chain/RISCV-compiler/riscv64-unknown-elf/lib/gcc/riscv64-unknown-elf/11.1.1/../../../../riscv64-unknown-elf/lib/libstdc++.a
+LOAD /usr/local/picolibc/riscv64-unknown-elf/lib/./libm.a
+LOAD /data/taiga64-project/tool-chain/RISCV-compiler/riscv64-unknown-elf/lib/gcc/riscv64-unknown-elf/11.1.1/libgcc.a
+START GROUP
+LOAD /data/taiga64-project/tool-chain/RISCV-compiler/riscv64-unknown-elf/lib/gcc/riscv64-unknown-elf/11.1.1/libgcc.a
+LOAD /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a
+END GROUP
+LOAD /data/taiga64-project/tool-chain/RISCV-compiler/riscv64-unknown-elf/lib/gcc/riscv64-unknown-elf/11.1.1/libgcc.a
+OUTPUT(sw_kernel.elf elf64-littleriscv)
+
+.comment        0x0000000000000000       0x1b
+ .comment       0x0000000000000000       0x1b /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+                                         0x1c (size before relaxing)
+ .comment       0x000000000000001b       0x1c obj/sw_kernel_main.cpp.o
+ .comment       0x000000000000001b       0x1c ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .comment       0x000000000000001b       0x1c ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .comment       0x000000000000001b       0x1c ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .comment       0x000000000000001b       0x1c /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .comment       0x000000000000001b       0x1c /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.riscv.attributes
+                0x0000000000000000       0x21
+ .riscv.attributes
+                0x0000000000000000       0x21 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .riscv.attributes
+                0x0000000000000021       0x21 obj/sw_kernel_main.cpp.o
+ .riscv.attributes
+                0x0000000000000042       0x21 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_io_swk.c.o)
+ .riscv.attributes
+                0x0000000000000063       0x21 ../sw-kernel-lib/lib//libsw-kernel.a(gpc_swk.c.o)
+ .riscv.attributes
+                0x0000000000000084       0x21 ../sw-kernel-lib/lib//libsw-kernel.a(lnh64.c.o)
+ .riscv.attributes
+                0x00000000000000a5       0x1f /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .riscv.attributes
+                0x00000000000000c4       0x1f /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .riscv.attributes
+                0x00000000000000e3       0x21 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .riscv.attributes
+                0x0000000000000104       0x21 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.debug_aranges  0x0000000000000000      0x100
+ .debug_aranges
+                0x0000000000000000       0x40 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .debug_aranges
+                0x0000000000000040       0x30 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .debug_aranges
+                0x0000000000000070       0x30 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .debug_aranges
+                0x00000000000000a0       0x30 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .debug_aranges
+                0x00000000000000d0       0x30 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.debug_info     0x0000000000000000      0x4de
+ .debug_info    0x0000000000000000      0x290 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .debug_info    0x0000000000000290       0x28 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .debug_info    0x00000000000002b8       0x28 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .debug_info    0x00000000000002e0       0xf5 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .debug_info    0x00000000000003d5      0x109 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.debug_abbrev   0x0000000000000000      0x34e
+ .debug_abbrev  0x0000000000000000      0x199 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .debug_abbrev  0x0000000000000199       0x14 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .debug_abbrev  0x00000000000001ad       0x14 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .debug_abbrev  0x00000000000001c1       0xc8 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .debug_abbrev  0x0000000000000289       0xc5 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.debug_line     0x0000000000000000      0x4ad
+ .debug_line    0x0000000000000000      0x134 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .debug_line    0x0000000000000134       0x7e /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .debug_line    0x00000000000001b2       0x72 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+ .debug_line    0x0000000000000224      0x124 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .debug_line    0x0000000000000348      0x165 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.debug_frame    0x0000000000000000       0xe8
+ .debug_frame   0x0000000000000000       0x58 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .debug_frame   0x0000000000000058       0x48 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .debug_frame   0x00000000000000a0       0x48 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.debug_str      0x0000000000000000      0x2e9
+ .debug_str     0x0000000000000000      0x195 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+                                        0x1cd (size before relaxing)
+ .debug_str     0x0000000000000195       0x4b /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+ .debug_str     0x00000000000001e0        0x9 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+                                         0x47 (size before relaxing)
+ .debug_str     0x00000000000001e9       0xac /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+                                        0x137 (size before relaxing)
+ .debug_str     0x0000000000000295       0x54 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+                                        0x161 (size before relaxing)
+
+.debug_line_str
+                0x0000000000000000      0x1f9
+ .debug_line_str
+                0x0000000000000000      0x17c /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+                                        0x1d3 (size before relaxing)
+ .debug_line_str
+                0x000000000000017c       0x2a /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memcpy-asm.S.o)
+                                         0x54 (size before relaxing)
+ .debug_line_str
+                0x00000000000001a6        0x9 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(memset.S.o)
+                                         0x4c (size before relaxing)
+ .debug_line_str
+                0x00000000000001af       0x2f /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+                                        0x129 (size before relaxing)
+ .debug_line_str
+                0x00000000000001de       0x1b /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+                                        0x129 (size before relaxing)
+
+.debug_loclists
+                0x0000000000000000      0x1c4
+ .debug_loclists
+                0x0000000000000000       0x5d /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .debug_loclists
+                0x000000000000005d       0x6f /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .debug_loclists
+                0x00000000000000cc       0xf8 /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
+
+.debug_rnglists
+                0x0000000000000000       0x8e
+ .debug_rnglists
+                0x0000000000000000       0x52 /usr/local/picolibc/riscv64-unknown-elf/lib/./crt0.o
+ .debug_rnglists
+                0x0000000000000052       0x1e /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(fini.c.o)
+ .debug_rnglists
+                0x0000000000000070       0x1e /usr/local/picolibc/riscv64-unknown-elf/lib/./libc.a(init.c.o)
